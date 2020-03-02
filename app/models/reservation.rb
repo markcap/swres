@@ -1,4 +1,4 @@
-class Reservation
+class Reservation < ApplicationRecord
   
   def self.yeet
     browser = Ferrum::Browser.new
