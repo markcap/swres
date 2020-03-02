@@ -1,6 +1,6 @@
 require 'clockwork'
 include Clockwork
 
-every(5.seconds, 'Send Messages') {
+every(1.day, 'Send Messages') {
   `rake reservations:process`
 }
