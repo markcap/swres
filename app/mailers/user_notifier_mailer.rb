@@ -1,5 +1,5 @@
 class UserNotifierMailer < ApplicationMailer
-  default :from => 'mark_kustyle@yahoo.com'
+  default :from => "mark.desuu@gmail.com"
   
   def send_confirmation(reservation)
     mail(:to => "kurzdaze@yahoo.com",

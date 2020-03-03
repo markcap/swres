@@ -95,7 +95,7 @@ Rails.application.configure do
    config.action_mailer.raise_delivery_errors = true
    config.action_mailer.default :charset => "utf-8"
   ActionMailer::Base.smtp_settings = {
-    :from => "mark_kustyle@yahoo.com",
+    :from => "mark.desuu@gmail.com",
     :user_name => ENV['SENDGRID_USERNAME'],
     :password => ENV['SENDGRID_PASSWORD'],
     :domain => 'swres.heroku.com',
