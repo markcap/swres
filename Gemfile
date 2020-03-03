@@ -15,6 +15,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'ferrum'
 gem 'clockwork'
 gem 'pg'
+gem 'sendgrid-ruby'
+
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
