@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_02_213837) do
+ActiveRecord::Schema.define(version: 2020_03_08_010427) do
 
   create_table "reservations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "code"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2020_03_02_213837) do
     t.string "lastname"
     t.datetime "depart"
     t.boolean "complete"
+    t.string "email"
   end
 
 end
